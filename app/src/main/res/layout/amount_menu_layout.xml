@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    android:paddingStart="10dp"
+    tools:context=".Activities.AmountMenuActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtl_amountmenu_Count"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_amount"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidthFocused="2dp"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/muli"
+            android:inputType="number"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtl_amountmenu_Note"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_note"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidthFocused="2dp"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/muli"
+            android:inputType="text"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.chip.ChipGroup
+            android:id="@+id/CG_addmount_function"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:chipSpacingHorizontal="40sp"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_addmount_add"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:checked="true"
+                android:text="ADD"
+                android:textAlignment="center" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_addmount_sub"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="SUB"
+                android:textAlignment="center" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_addmount_cancel"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="Huy mon"
+                android:textAlignment="center" />
+        </com.google.android.material.chip.ChipGroup>
+
+    <Button
+        android:id="@+id/btn_amountmenu_OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        app:backgroundTint="#3d1d0d" />
+</LinearLayout>

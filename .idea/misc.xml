@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/corner_border_black.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/corner_border_primary.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/ic_baseline_attach_money_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/ic_baseline_exit_to_app_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/ic_baseline_people_alt_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/ic_baseline_phone_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/ic_baseline_update_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/ic_baseline_wc_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable-v24/round_corner_countfood.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/aa_background.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/circle_drawable.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_airline_seat_legroom_normal_40.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_backspace_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_create_pencil.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_event_24.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_event_seat_40.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_fastfood_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_payments_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_baseline_restaurant_menu_24.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_menu.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_sale1.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_saleicon.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/ic_search_512.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/reccropbot.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/reccroptop.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/round_corner_categorytext.xml" value="0.2203125" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/round_corner_saletext.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/shape_button.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/drawable/shape_button_stroke.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/font/muli.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout-notnight/home_layout.xml" value="0.11594202898550725" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout-w1240dp/home_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/activity_display_bill_info_note.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/activity_input_note_dialog.xml" value="0.2" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/activity_main.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/activity_my_date_picker_dialog.xml" value="0.21" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/activity_register2nd.xml" value="0.1" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/add_account_layout.xml" value="0.18" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/add_category_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/add_food_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/add_sale_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/add_table_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/add_zone_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/amount_menu_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displayaccount.xml" value="0.33" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displaycategory.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displayfood.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displaypayment.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displayrespone.xml" value="0.22" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displaysale.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displaystatistic.xml" value="0.33" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displaytable.xml" value="0.2" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displaytopfood.xml" value="0.33" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_displayzone.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/custom_layout_paymentmenu.xml" value="0.33" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/detail_statistic_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/forgot_pass_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_account.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_category_food.xml" value="0.1" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_food_list.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_infomation.xml" value="0.33" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_menu.xml" value="0.18" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_respone_list.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_sale_list.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_setup.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_statistic.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_table.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_top_food.xml" value="0.18" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_turnover.xml" value="0.22" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/fragment_display_zone_layout.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/home_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/login_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/menu_navigation_header.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/payment_layout.xml" value="0.21" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/register2nd_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/register_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/splash_layout.xml" value="0.15" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/layout/welcome_layout.xml" value="0.1068840579710145" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/menu/edit_context_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/menu/item_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/menu/main_menu_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/menu/menu_distatistic.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/Quang Danger/AndroidStudioProjects/QuanLyOrder/app/src/main/res/menu/menu_statistic.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

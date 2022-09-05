@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/white"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_customacc_ImgAccount"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/user_cog_solid"
+            android:visibility="visible"
+            app:civ_border_color="@color/teal_200"
+            app:civ_border_width="10dp"
+            app:civ_circle_background_color="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_customacc_ImgAccount"
+            android:orientation="vertical"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:id="@+id/txt_customacc_FullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_black"
+                android:text="Admin"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_customacc_PosUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:gravity="center"
+                android:text="Quản Lý"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_customacc_PhoneNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:text="SĐT: 0123456789"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_customacc_Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:gravity="center"
+                android:text="admin@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/list_bill"
+        android:title="@string/list_bill"
+    />
+    <item
+        android:id="@+id/top_food"
+        android:title="@string/top_food"
+        />
+    <item
+        android:id="@+id/respone_list"
+        android:title="@string/respone_list"
+        />
+    <item
+        android:id="@+id/turnover"
+        android:title="@string/turnover"
+        />
+</menu>

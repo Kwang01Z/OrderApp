@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activities.AddSaleActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtl_addsale_NameSale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/editSaleHint"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidthFocused="2dp"
+        app:endIconTint="@color/black"
+        app:endIconMode="clear_text"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:fontFamily="@font/muli"
+            android:inputType="text"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtl_addsale_ValueSale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/editValueSaleHint"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidthFocused="2dp"
+        app:endIconTint="@color/black"
+        app:endIconMode="clear_text"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/muli"
+            android:inputType="number"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btn_addsale_AddSale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button"
+        android:text="@string/addSale"
+        android:textColor="@color/white"
+        app:backgroundTint="#3d1d0d" />
+</LinearLayout>

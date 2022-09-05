@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddAccountActivity"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:transitionName="transition_signup"
+    android:id="@+id/itAddAccount"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/img_addaccount_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:padding="5dp"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/txt_addaccount_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/img_addaccount_back"
+                android:fontFamily="@font/muli_black"
+                android:paddingLeft="15dp"
+                android:text="@string/addAccount"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/txt_addaccount_Permission"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quyền:"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_centerVertical="true"
+                    />
+
+                <RadioGroup
+                    android:id="@+id/rg_addaccount_TypeAcc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:layout_toRightOf="@id/txt_addaccount_Permission"
+                    android:layout_centerVertical="true"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/rd_addaccount_Manager"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Manager"
+                        android:textSize="16sp"
+                        android:layout_marginRight="10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rd_addaccount_Staff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Staff"
+                        android:textSize="16sp"
+                        android:layout_marginRight="10dp"/>
+
+                </RadioGroup>
+            </RelativeLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtl_addaccount_FullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_fullname"
+                app:startIconDrawable="@drawable/ic_baseline_create_pencil"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:startIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="@color/black"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtl_addaccount_UserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_username"
+                app:startIconDrawable="@drawable/ic_baseline_person_24"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:startIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="@color/black"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtl_addaccount_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_email"
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:startIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="@color/black"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textEmailAddress"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtl_addaccount_PhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_phone"
+                app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:startIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="@color/black"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="phone"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtl_addaccount_PassWord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_password"
+                app:startIconDrawable="@drawable/ic_baseline_lock_24"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:startIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/black"
+                app:endIconTint="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="@color/black"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtl_addaccount_rePassWord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/re_enter_password"
+                app:startIconDrawable="@drawable/ic_baseline_lock_24"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:startIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/black"
+                app:endIconTint="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="@color/black"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enter_userposition"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_addaccount_UserPosition"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                >
+                <TextView
+                    android:id="@+id/txt_addaccount_Gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_gender"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_centerVertical="true"
+                    />
+
+                <RadioGroup
+                    android:id="@+id/rg_addaccount_Gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:layout_toRightOf="@id/txt_addaccount_Gender"
+                    android:layout_centerVertical="true"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/rd_addaccount_Man"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/man"
+                        android:layout_marginRight="10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rd_addaccount_Woman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/woman"
+                        android:layout_marginRight="10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rd_addaccount_Diff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/difference" />
+                </RadioGroup>
+            </RelativeLayout>
+
+
+
+            <DatePicker
+                android:id="@+id/dt_addaccount_Birthday"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:spinnersShown="true"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_addaccount_AddAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_button"
+            android:elevation="5dp"
+            android:text="@string/addAccount"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</ScrollView>

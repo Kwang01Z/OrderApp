@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itAddZone"
+        android:title="@string/addZone"
+        />
+    <item
+        android:id="@+id/itAddTable"
+        android:title="@string/addTable"
+        />
+    <item
+        android:id="@+id/itAddCategory"
+        android:title="@string/addCategory"
+        />
+    <item
+        android:id="@+id/itAddFood"
+        android:title="@string/addFood"
+        />
+    <item
+        android:id="@+id/itAddAccount"
+        android:title="@string/addAccount"
+        />
+    <item android:id="@+id/itAddSale"
+        android:title="@string/addSale"
+        />
+    <item android:id="@+id/itchoose_date_range"
+        android:title="@string/choose_date_range"
+        />
+</menu>

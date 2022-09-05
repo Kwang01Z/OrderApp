@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="202dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_topfood_ImgFood"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/food1" />
+
+                <TextView
+                    android:id="@+id/txt_topfood_NameFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/black50"
+                    android:fontFamily="@font/muli_black"
+                    android:padding="5dp"
+                    android:text="Tenderloin"
+                    android:textColor="#FFE500"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt_topfood_Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/round_corner_textview"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/food_exist"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/txt_topfood_Sale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/round_corner_textview"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#3d1d0d"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/txt_topfood_Price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/muli"
+                    android:padding="3dp"
+                    android:text="10000 VND"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_topfood_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="#8FFD94"
+            android:text="Đã đặt: 0"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

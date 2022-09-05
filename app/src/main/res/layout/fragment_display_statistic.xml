@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallper"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDisplaystatisticTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#028131"
+        android:text="@string/list_bill"
+        android:textAlignment="center"
+        android:textColor="#EFE05F"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_statistic_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B0BDBDBD"
+        android:paddingLeft="10dp"
+        android:text="@string/today" />
+
+    <ListView
+        android:id="@+id/lvStatistic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:verticalSpacing="15dp">
+
+    </ListView>
+
+</LinearLayout>

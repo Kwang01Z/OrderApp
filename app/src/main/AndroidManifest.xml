@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.quanlyorder">
+
+    <application
+        android:allowBackup="true"
+        android:forceDarkAllowed="false"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyOrder">
+        <activity
+            android:name=".OtherLibrary.MyDatePickerDialog"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".OtherLibrary.InputNoteDialog"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".OtherLibrary.DisplayBillInfoNoteActivity"
+            android:exported="false"
+            android:theme="@style/PopUpActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Activities.DetailStatisticActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AmountMenuActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_amount"
+            android:theme="@style/PopUpActivity" />
+        <activity
+            android:name=".Activities.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AddAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AddTableActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_table"
+            android:theme="@style/PopUpActivity" />
+        <activity
+            android:name=".Activities.AddSaleActivity"
+            android:exported="false"
+            android:label="@string/addSale"
+            android:theme="@style/PopUpActivity" />
+        <activity
+            android:name=".Activities.AddZoneActivity"
+            android:exported="false"
+            android:label="@string/addZone"
+            android:theme="@style/PopUpActivity" />
+        <activity
+            android:name=".Activities.AddFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AddCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Register2ndActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

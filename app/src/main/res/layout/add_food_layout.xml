@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:padding="30dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarDefaultDelayBeforeFade="400"
+    android:scrollbarFadeDuration="250"
+    android:scrollbarSize="4sp"
+    android:scrollbarStyle="insideOverlay"
+    app:layout_scrollFlags="scroll"
+    tools:context=".Activities.AddFoodActivity">
+
+    <ImageView
+        android:id="@+id/img_addFood_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/txt_addFood_FunctionTilte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/muli_black"
+        android:text="@string/addfood"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_addFood_AddImg"
+                android:layout_width="185dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/add_attach_icon" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtl_addFood_NameFood"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/foodname"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_fastfood_24"
+                app:startIconTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtl_addFood_PriceFood"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/foodprice"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_attach_money_24"
+                app:startIconTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtl_addFood_CategoryFood"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/foodcategory"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/ic_baseline_restaurant_menu_24"
+                app:startIconTint="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_StatusFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_addFood_StatusFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/foodstatus"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg_addFood_StatusFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/txt_addFood_StatusFood"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rd_addFood_FoodExist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_exist" />
+
+                    <RadioButton
+                        android:id="@+id/rd_addFood_FoodNotExist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/food_not_exsit" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    app:srcCompat="@drawable/ic_sale_icon2" />
+
+                <Spinner
+                    android:id="@+id/spinner_addfood_Sale"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_addFood_AddFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_button"
+                android:elevation="5dp"
+                android:text="@string/addFood"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

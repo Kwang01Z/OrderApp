@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtherLibrary.MyDatePickerDialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CF9F58"
+        android:text="@string/title_mydatepicker"
+        android:textAlignment="center"
+        android:textColor="#036E05"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/mydatepicker_rgFuntion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checkedButton="@id/mydatepicker_radChooseDate"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/mydatepicker_radChooseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_date" />
+
+        <RadioButton
+            android:id="@+id/mydatepicker_radChooseDateRanger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_date_range" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/mydatepicker_layoutChooseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mydatepicker_tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/mydatepicker_btnChooseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/choose_date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mydatepicker_layoutChooseDateRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mydatepicker_tvDateBegin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/mydatepicker_btnChooseDateBegin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/choose_date_begin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mydatepicker_tvDateEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/mydatepicker_btnChooseDateEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/choose_date_end" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mydatepicker_btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Cancel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText_fullName" />
+
+        <Button
+            android:id="@+id/mydatepicker_btnok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="OK"
+            app:layout_constraintEnd_toStartOf="@+id/mydatepicker_btncancel"
+            app:layout_constraintTop_toBottomOf="@+id/editText_fullName" />
+    </LinearLayout>
+
+</LinearLayout>
